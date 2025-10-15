@@ -7,7 +7,7 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "build:android": "react-native build-android --tasks=assembleDebug --extra-params \"--no-daemon --console=plain -PreactNativeArchitectures=x86_64\"",
-    "build:ios": "react-native build-ios --mode Debug"
+    "build:ios": "react-native build-ios --mode Debug --buildFolder build"
   },
   "dependencies": {
     "@react-native/new-app-screen": "0.81.0",
